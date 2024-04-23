@@ -54,6 +54,7 @@
             this.btnBereken.TabIndex = 10;
             this.btnBereken.Text = "Bereken";
             this.btnBereken.UseVisualStyleBackColor = true;
+            this.btnBereken.Click += new System.EventHandler(this.btnBereken_Click);
             // 
             // txtGetal2
             // 

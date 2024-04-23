@@ -33,7 +33,12 @@ namespace BewerkingenGetallen
                 int getal1 = int.Parse(txtGetal1.Text);
                 int getal2 = int.Parse(txtGetal2.Text);
 
+                // Toon oplossing
                 MessageBox.Show( Program.Optellen(getal1 , getal2), "Oplossing");
+
+                // Form resetten
+                txtGetal1.Text = null;
+                txtGetal2.Text = null;
             }
             catch 
             {
